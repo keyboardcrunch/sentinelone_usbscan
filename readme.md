@@ -8,9 +8,9 @@ Within the SentinelOne /docs we can see that the Sentinel Agent implements a COM
 ### James Forshaw's OleView
 Since we know the Program ID to investigate, [OleView](https://github.com/tyranid/oleviewdotnet) is a good place to start. We start by navigating to the "Prog IDs" section under the Registry menu. The documentation references `SentinelAgent.1`, so let's start by opening the Type Library of ISentinelAgent (as it's the most obvious).
 
-![OleView SentinelAgent.1](https://github.com/keyboardcrunch/sentinelone_usbscan/blob/main/OleView_SentinelAgent1.png?raw=True)
+![OleView SentinelAgent.1](https://github.com/keyboardcrunch/sentinelone_usbscan/blob/main/images/OleView_SentinelAgent1.png?raw=True)
 
-![OleView SentinelAgentLibrary](https://github.com/keyboardcrunch/sentinelone_usbscan/blob/main/OleView_DSentinelAgentEvents.png?raw=True)
+![OleView SentinelAgentLibrary](https://github.com/keyboardcrunch/sentinelone_usbscan/blob/main/images/OleView_DSentinelAgentEvents.png?raw=True)
 
 
 ### Prototyping Some Code
